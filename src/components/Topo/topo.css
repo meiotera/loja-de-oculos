@@ -1,0 +1,30 @@
+.topo img {
+    width: 150px;
+}
+
+.topo nav a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.topo .limitar-secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 550px) {
+    .topo .limitar-secao {
+        flex-direction: column;
+    }
+    .limitar-secao nav {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #aaadaf;
+    }
+}
